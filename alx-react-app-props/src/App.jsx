@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 import UserProfile from "./components/UserProfile";
-import { UserContextProvider } from "./components/UserContext";
+import  UserContextProvider  from "./components/UserContext";
 import ProfilePage from "./components/ProfilePage";
 
 export default function App() {
