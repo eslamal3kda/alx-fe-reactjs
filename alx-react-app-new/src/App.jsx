@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import MainContent from './components/MainContent'
 import UserProfile from './components/UserProfile'
+import Counter from './components/Counter'
 
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
     <>
     <Header />
     <WelcomeMessage />
+    <Counter />
     <MainContent />
     <UserProfile name="Alice" age="25" bio="Loves hiking and photography"/>
     <Footer />
