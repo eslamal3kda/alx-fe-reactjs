@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 import UserProfile from "./components/UserProfile";
-import  UserContextProvider  from "./components/UserContext";
+import UserContextProvider, { UserContext } from "./components/UserContext";
 import ProfilePage from "./components/ProfilePage";
 
 export default function App() {
@@ -13,9 +13,11 @@ export default function App() {
             <WelcomeMessage />
             <Header />
             <MainContent />
-            <UserContextProvider>
+            {/* <UserContextProvider> */}
+            <UserContext.Provider>
                 <ProfilePage />
-            </UserContextProvider>
+            </UserContext.Provider>
+            {/* </UserContextProvider> */}
             <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
             <Footer />
         </>
