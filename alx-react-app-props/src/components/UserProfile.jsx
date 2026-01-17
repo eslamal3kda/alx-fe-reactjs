@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import {UserContext}  from "./UserContext";
+import UserContext from "./UserContext";
 
 export default function UserProfile() {
     let props = useContext(UserContext)
-    
+
     return (
         <div>
             <h2>{props.name}</h2>

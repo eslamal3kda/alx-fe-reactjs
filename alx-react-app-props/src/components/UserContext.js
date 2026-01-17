@@ -4,4 +4,4 @@ const UserContext = createContext()
 
 
 
-export { UserContext }
+export default  UserContext 
