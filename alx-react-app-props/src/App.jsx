@@ -8,13 +8,14 @@ import UserContextProvider, { UserContext } from "./components/UserContext";
 import ProfilePage from "./components/ProfilePage";
 
 export default function App() {
+     const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
     return (
         <>
             <WelcomeMessage />
             <Header />
             <MainContent />
             {/* <UserContextProvider> */}
-            <UserContext.Provider>
+            <UserContext.Provider value={userData}>
                 <ProfilePage />
             </UserContext.Provider>
             {/* </UserContextProvider> */}
