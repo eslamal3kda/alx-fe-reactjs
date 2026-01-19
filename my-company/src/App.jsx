@@ -7,7 +7,7 @@ import Services from "./components/Services";
 import Layout from "./components/Layout";
 
 export default function App() {
-    const routing = createBrowserRouter([
+    const Routes = createBrowserRouter([
         {
             path: "/",
             element: <Layout />,
@@ -21,7 +21,7 @@ export default function App() {
     ]);
     return (
         <>
-            <RouterProvider router={routing}></RouterProvider>
+            <RouterProvider router={Routes}></RouterProvider>
         </>
     );
 }
