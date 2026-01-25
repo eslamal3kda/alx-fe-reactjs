@@ -8,8 +8,8 @@ export default function EditRecipeForm({ recipe }) {
     const [description, setDescription] = useState(recipe.description);
     const navigate = useNavigate();
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const handleSubmit = (event) => {
+        event.preventDefault();
         updateRecipe({ ...recipe, title, description });
         navigate(`/recipes/${recipe.id}`);
     };
