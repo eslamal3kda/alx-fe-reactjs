@@ -8,7 +8,7 @@ const useRecipeStore = create((set) => ({
         set((state) => ({
             recipes: state.recipes.map((r) => (r.id === updatedRecipe.id ? updatedRecipe : r)),
         })),
-    deletedRecipe: (id) =>
+    deleteRecipe: (id) =>
         set((state) => ({
             recipes: state.recipes.filter((r) => r.id == id),
         })),
