@@ -39,7 +39,7 @@ export default function Search() {
             </form>
 
             {loading && <p>loading...</p>}
-            {error && <p>Can't find user data</p>}
+            {error && <p>Looks like we cant find the use</p>}
             {userData && !loading && !error && (
                 <div className="user-card" style={{ padding: "10px", margin: "20px", minHeight: "400px", borderRadius: "10px" }}>
                     <div className="user-img" style={{ width: "200px", height: "200px", borderRadius: "50%", overflow: "hidden" }}>
