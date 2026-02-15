@@ -4,139 +4,518 @@
         "title": "Spaghetti Carbonara",
         "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
         "image": "https://picsum.photos/400/300?random=1",
-        "details": "Spaghetti Carbonara is a traditional Italian pasta dish made with simple yet flavorful ingredients. The dish begins with perfectly cooked spaghetti tossed with crispy pancetta or bacon. A rich sauce is created by combining fresh eggs and grated Parmesan or Pecorino Romano cheese, which gently cook when mixed with the hot pasta, creating a creamy texture without the use of cream. Freshly cracked black pepper adds a subtle heat and depth of flavor. The key to an authentic carbonara lies in tempering the eggs properly to avoid scrambling them. It is typically served immediately, garnished with extra cheese and pepper for a comforting and indulgent meal."
+        "details": "Spaghetti Carbonara is a traditional Italian pasta dish made with simple yet flavorful ingredients. The dish begins with perfectly cooked spaghetti tossed with crispy pancetta or bacon. A rich sauce is created by combining fresh eggs and grated Parmesan or Pecorino Romano cheese, which gently cook when mixed with the hot pasta, creating a creamy texture without the use of cream. Freshly cracked black pepper adds a subtle heat and depth of flavor. The key to an authentic carbonara lies in tempering the eggs properly to avoid scrambling them. It is typically served immediately, garnished with extra cheese and pepper for a comforting and indulgent meal.",
+        "ingredients": [
+            "400g spaghetti",
+            "150g pancetta or bacon, diced",
+            "2 large eggs",
+            "50g grated Parmesan or Pecorino Romano",
+            "2 cloves garlic, minced",
+            "Freshly ground black pepper",
+            "Salt to taste",
+            "Olive oil for cooking"
+        ],
+        "instructions": [
+            "Cook spaghetti in salted boiling water until al dente.",
+            "Meanwhile, fry pancetta or bacon in olive oil until crispy. Add garlic and sauté for 1 minute.",
+            "In a bowl, whisk together eggs and grated cheese.",
+            "Drain pasta and return to pot, off heat. Quickly mix in the egg-cheese mixture and pancetta, stirring constantly to create a creamy sauce.",
+            "Season with black pepper and salt to taste. Serve immediately with extra cheese."
+        ]
     },
     {
         "id": 2,
         "title": "Chicken Tikka Masala",
         "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
         "image": "https://picsum.photos/400/300?random=2",
-        "details": "Chicken Tikka Masala features marinated chunks of chicken that are grilled or roasted until slightly charred and smoky. The chicken is then simmered in a creamy tomato-based sauce made with onions, garlic, ginger, and a blend of aromatic spices such as garam masala, cumin, coriander, and paprika. The sauce is enriched with cream or yogurt for a smooth and velvety texture. This dish balances mild heat with subtle sweetness and tanginess from the tomatoes. It is best served with warm naan bread or steamed basmati rice, allowing the flavorful sauce to be fully enjoyed."
+        "details": "Chicken Tikka Masala features marinated chunks of chicken that are grilled or roasted until slightly charred and smoky. The chicken is then simmered in a creamy tomato-based sauce made with onions, garlic, ginger, and a blend of aromatic spices such as garam masala, cumin, coriander, and paprika. The sauce is enriched with cream or yogurt for a smooth and velvety texture. This dish balances mild heat with subtle sweetness and tanginess from the tomatoes. It is best served with warm naan bread or steamed basmati rice, allowing the flavorful sauce to be fully enjoyed.",
+        "ingredients": [
+            "500g boneless chicken, cubed",
+            "1 cup yogurt",
+            "2 tsp garam masala",
+            "1 tsp cumin powder",
+            "1 tsp paprika",
+            "2 tbsp vegetable oil",
+            "1 onion, finely chopped",
+            "3 cloves garlic, minced",
+            "1 inch ginger, grated",
+            "400g canned tomatoes",
+            "1/2 cup cream or yogurt",
+            "Salt to taste",
+            "Fresh cilantro for garnish"
+        ],
+        "instructions": [
+            "Marinate chicken with yogurt, 1 tsp garam masala, and salt for at least 1 hour.",
+            "Grill or pan-fry chicken until lightly charred and cooked through.",
+            "In a pan, heat oil and sauté onion, garlic, and ginger until soft.",
+            "Add tomatoes, remaining spices, and simmer for 10 minutes.",
+            "Add cooked chicken to the sauce, stir in cream, and simmer for 5 more minutes.",
+            "Garnish with fresh cilantro and serve with rice or naan."
+        ]
     },
     {
         "id": 3,
         "title": "Beef Wellington",
         "summary": "A rich and tender fillet of beef wrapped in puff pastry with mushrooms and prosciutto.",
         "image": "https://picsum.photos/400/300?random=3",
-        "details": "Beef Wellington is an elegant and luxurious dish featuring a tender beef fillet seared to lock in juices, then coated with a layer of mushroom duxelles and often wrapped in thin slices of prosciutto. The beef is encased in golden, flaky puff pastry and baked until perfectly crisp on the outside while maintaining a juicy and tender center. The mushroom mixture adds an earthy depth of flavor, complementing the richness of the beef. Typically served with roasted vegetables and a red wine reduction sauce, Beef Wellington is a popular centerpiece for festive dinners and special occasions."
+        "details": "Beef Wellington is an elegant and luxurious dish featuring a tender beef fillet seared to lock in juices, then coated with a layer of mushroom duxelles and often wrapped in thin slices of prosciutto. The beef is encased in golden, flaky puff pastry and baked until perfectly crisp on the outside while maintaining a juicy and tender center. The mushroom mixture adds an earthy depth of flavor, complementing the richness of the beef. Typically served with roasted vegetables and a red wine reduction sauce, Beef Wellington is a popular centerpiece for festive dinners and special occasions.",
+        "ingredients": [
+            "1 beef fillet (about 1kg)",
+            "2 tbsp olive oil",
+            "250g mushrooms, finely chopped",
+            "2 cloves garlic, minced",
+            "6 slices prosciutto",
+            "500g puff pastry",
+            "2 egg yolks, beaten",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Season beef with salt and pepper and sear in hot oil until browned on all sides. Let cool.",
+            "Sauté mushrooms and garlic until moisture evaporates to create duxelles.",
+            "Wrap beef with prosciutto and mushroom mixture.",
+            "Roll out puff pastry and encase the beef completely. Brush with beaten egg yolk.",
+            "Bake at 200°C for 25–30 minutes until pastry is golden.",
+            "Rest for 10 minutes before slicing. Serve with vegetables and sauce."
+        ]
     },
     {
         "id": 4,
         "title": "Vegetable Stir Fry",
         "summary": "A colorful and healthy dish with mixed vegetables stir-fried in soy sauce and garlic.",
         "image": "https://picsum.photos/400/300?random=4",
-        "details": "Vegetable Stir Fry is a quick and nutritious dish made by cooking fresh vegetables such as bell peppers, broccoli, carrots, snap peas, and mushrooms over high heat. The vegetables are sautéed in a wok with garlic, ginger, and a splash of soy sauce, allowing them to retain their crunch and vibrant color. A light sauce made with soy sauce, sesame oil, and a touch of cornstarch coats the vegetables, enhancing their natural flavors. This dish can be served as a main course over rice or noodles, or as a side dish accompanying grilled meats or tofu."
+        "details": "Vegetable Stir Fry is a quick and nutritious dish made by cooking fresh vegetables such as bell peppers, broccoli, carrots, snap peas, and mushrooms over high heat. The vegetables are sautéed in a wok with garlic, ginger, and a splash of soy sauce, allowing them to retain their crunch and vibrant color. A light sauce made with soy sauce, sesame oil, and a touch of cornstarch coats the vegetables, enhancing their natural flavors. This dish can be served as a main course over rice or noodles, or as a side dish accompanying grilled meats or tofu.",
+        "ingredients": [
+            "1 red bell pepper, sliced",
+            "1 yellow bell pepper, sliced",
+            "1 cup broccoli florets",
+            "1 carrot, thinly sliced",
+            "1 cup snap peas",
+            "1 cup mushrooms, sliced",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil",
+            "1 tsp cornstarch",
+            "2 cloves garlic, minced",
+            "1 inch ginger, grated"
+        ],
+        "instructions": [
+            "Heat sesame oil in a wok over high heat.",
+            "Add garlic and ginger, sauté for 1 minute.",
+            "Add all vegetables and stir-fry for 3–5 minutes until tender-crisp.",
+            "Mix soy sauce with cornstarch and a little water, pour over vegetables, and stir for 1–2 minutes until sauce thickens.",
+            "Serve hot over rice or noodles."
+        ]
     },
     {
         "id": 5,
         "title": "Margherita Pizza",
         "summary": "A simple pizza topped with fresh tomatoes, mozzarella, basil, and a drizzle of olive oil.",
         "image": "https://picsum.photos/400/300?random=5",
-        "details": "Margherita Pizza is a classic Italian pizza known for its simplicity and fresh ingredients. A thin pizza dough is spread with a light layer of crushed tomatoes seasoned with salt and olive oil. Fresh mozzarella slices are evenly distributed across the surface before baking in a hot oven until the crust is golden and crisp. After baking, fresh basil leaves are added for a burst of aroma and flavor. The combination of tangy tomatoes, creamy mozzarella, and fragrant basil creates a balanced and satisfying taste that celebrates traditional Italian cuisine."
+        "details": "Margherita Pizza is a classic Italian pizza known for its simplicity and fresh ingredients. A thin pizza dough is spread with a light layer of crushed tomatoes seasoned with salt and olive oil. Fresh mozzarella slices are evenly distributed across the surface before baking in a hot oven until the crust is golden and crisp. After baking, fresh basil leaves are added for a burst of aroma and flavor. The combination of tangy tomatoes, creamy mozzarella, and fragrant basil creates a balanced and satisfying taste that celebrates traditional Italian cuisine.",
+        "ingredients": [
+            "1 pizza dough (about 500g)",
+            "200g fresh mozzarella, sliced",
+            "2 large tomatoes, thinly sliced",
+            "Fresh basil leaves",
+            "2 tbsp olive oil",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Preheat oven to 250°C (or as high as possible).",
+            "Roll out pizza dough to desired thickness and place on a baking tray.",
+            "Spread a thin layer of sliced tomatoes and sprinkle with salt.",
+            "Top with mozzarella slices evenly.",
+            "Bake for 8–12 minutes until crust is golden and cheese is bubbly.",
+            "Remove from oven and scatter fresh basil leaves. Drizzle with olive oil and serve."
+        ]
     },
     {
         "id": 6,
         "title": "Lamb Curry",
         "summary": "Slow-cooked lamb in a spicy and aromatic curry sauce with tomatoes and yogurt.",
         "image": "https://picsum.photos/400/300?random=6",
-        "details": "Lamb Curry is a hearty dish where tender pieces of lamb are slowly cooked in a richly spiced sauce made from tomatoes, onions, garlic, ginger, and a variety of aromatic spices including cumin, coriander, turmeric, and chili powder. Yogurt is often added to create a creamy texture and to balance the spiciness of the sauce. The slow-cooking process ensures the lamb becomes incredibly tender and absorbs the complex flavors of the curry. Typically served with steamed rice or warm naan, lamb curry is comforting, flavorful, and deeply satisfying."
+        "details": "Lamb Curry is a hearty dish where tender pieces of lamb are slowly cooked in a richly spiced sauce made from tomatoes, onions, garlic, ginger, and a variety of aromatic spices including cumin, coriander, turmeric, and chili powder. Yogurt is often added to create a creamy texture and to balance the spiciness of the sauce. The slow-cooking process ensures the lamb becomes incredibly tender and absorbs the complex flavors of the curry. Typically served with steamed rice or warm naan, lamb curry is comforting, flavorful, and deeply satisfying.",
+        "ingredients": [
+            "500g lamb, cubed",
+            "2 tbsp vegetable oil",
+            "1 onion, chopped",
+            "3 cloves garlic, minced",
+            "1 inch ginger, grated",
+            "2 tomatoes, chopped",
+            "1/2 cup yogurt",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1/2 tsp turmeric",
+            "1 tsp chili powder",
+            "Salt to taste",
+            "Fresh cilantro for garnish"
+        ],
+        "instructions": [
+            "Heat oil in a pot and sauté onion, garlic, and ginger until fragrant.",
+            "Add lamb and brown on all sides.",
+            "Add spices and tomatoes, cook for 5 minutes.",
+            "Reduce heat and stir in yogurt. Cover and simmer for 45–60 minutes until lamb is tender.",
+            "Garnish with cilantro and serve with rice or naan."
+        ]
     },
     {
         "id": 7,
         "title": "Pancakes",
         "summary": "Fluffy, buttery pancakes served with maple syrup and your favorite toppings.",
         "image": "https://picsum.photos/400/300?random=7",
-        "details": "Pancakes are a breakfast favorite made from a simple batter of flour, eggs, milk, sugar, and baking powder. The batter is poured onto a hot griddle or skillet and cooked until golden brown on both sides. The result is light, fluffy, and tender pancakes that melt in your mouth. They can be served stacked high with butter, maple syrup, fresh fruits, whipped cream, or chocolate chips for added indulgence. Pancakes are versatile and can be customized with different flavors such as blueberry, banana, or even savory options with cheese and herbs."
+        "details": "Pancakes are a breakfast favorite made from a simple batter of flour, eggs, milk, sugar, and baking powder. The batter is poured onto a hot griddle or skillet and cooked until golden brown on both sides. The result is light, fluffy, and tender pancakes that melt in your mouth. They can be served stacked high with butter, maple syrup, fresh fruits, whipped cream, or chocolate chips for added indulgence. Pancakes are versatile and can be customized with different flavors such as blueberry, banana, or even savory options with cheese and herbs.",
+        "ingredients": [
+            "1 1/2 cups all-purpose flour",
+            "3 1/2 tsp baking powder",
+            "1 tsp salt",
+            "1 tbsp sugar",
+            "1 1/4 cups milk",
+            "1 egg",
+            "3 tbsp melted butter",
+            "Butter and maple syrup for serving"
+        ],
+        "instructions": [
+            "In a bowl, mix flour, baking powder, salt, and sugar.",
+            "In another bowl, whisk together milk, egg, and melted butter.",
+            "Pour wet ingredients into dry ingredients and stir until just combined.",
+            "Heat a non-stick skillet over medium heat and grease lightly.",
+            "Pour 1/4 cup batter per pancake and cook until bubbles form, then flip and cook another 1–2 minutes.",
+            "Serve hot with butter and maple syrup."
+        ]
     },
     {
         "id": 8,
         "title": "Caesar Salad",
         "summary": "Crisp romaine lettuce, crunchy croutons, and creamy Caesar dressing with grated Parmesan.",
         "image": "https://picsum.photos/400/300?random=8",
-        "details": "Caesar Salad is a refreshing green salad featuring crisp romaine lettuce, crunchy homemade croutons, and a creamy dressing made from egg yolk, garlic, Dijon mustard, lemon juice, anchovy paste, and olive oil. Grated Parmesan cheese adds a salty and nutty flavor, perfectly complementing the fresh lettuce. Optional toppings like grilled chicken or bacon can be added for protein, making it a versatile starter or main dish. The combination of textures and flavors—crisp, creamy, tangy, and savory—makes Caesar Salad a timeless classic."
+        "details": "Caesar Salad is a refreshing green salad featuring crisp romaine lettuce, crunchy homemade croutons, and a creamy dressing made from egg yolk, garlic, Dijon mustard, lemon juice, anchovy paste, and olive oil. Grated Parmesan cheese adds a salty and nutty flavor, perfectly complementing the fresh lettuce. Optional toppings like grilled chicken or bacon can be added for protein, making it a versatile starter or main dish. The combination of textures and flavors—crisp, creamy, tangy, and savory—makes Caesar Salad a timeless classic.",
+        "ingredients": [
+            "1 large romaine lettuce, chopped",
+            "1 cup croutons",
+            "50g grated Parmesan cheese",
+            "1 egg yolk",
+            "1 tsp Dijon mustard",
+            "1 tsp anchovy paste",
+            "1 clove garlic, minced",
+            "2 tbsp lemon juice",
+            "1/3 cup olive oil",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Whisk together egg yolk, mustard, anchovy paste, garlic, lemon juice, and olive oil until emulsified.",
+            "Toss chopped romaine with dressing.",
+            "Add croutons and grated Parmesan.",
+            "Season with salt and pepper to taste and serve immediately."
+        ]
     },
     {
         "id": 9,
         "title": "Sushi Rolls",
         "summary": "Fresh fish, rice, and vegetables rolled in nori seaweed, often served with soy sauce and wasabi.",
         "image": "https://picsum.photos/400/300?random=9",
-        "details": "Sushi Rolls, or maki, are a staple of Japanese cuisine. Cooked and seasoned sushi rice is spread over nori (seaweed sheets) and filled with ingredients such as fresh fish, avocado, cucumber, and pickled vegetables. The nori is rolled tightly using a bamboo mat to form bite-sized rolls, which are then sliced and served with soy sauce, pickled ginger, and wasabi for added flavor. Sushi Rolls combine delicate textures and fresh flavors, offering a balanced experience of umami, sweetness, and subtle tanginess."
+        "details": "Sushi Rolls, or maki, are a staple of Japanese cuisine. Cooked and seasoned sushi rice is spread over nori (seaweed sheets) and filled with ingredients such as fresh fish, avocado, cucumber, and pickled vegetables. The nori is rolled tightly using a bamboo mat to form bite-sized rolls, which are then sliced and served with soy sauce, pickled ginger, and wasabi for added flavor. Sushi Rolls combine delicate textures and fresh flavors, offering a balanced experience of umami, sweetness, and subtle tanginess.",
+        "ingredients": [
+            "2 cups sushi rice, cooked and seasoned",
+            "4 sheets nori (seaweed)",
+            "100g fresh fish (salmon or tuna), sliced",
+            "1/2 cucumber, julienned",
+            "1/2 avocado, sliced",
+            "Soy sauce, wasabi, and pickled ginger for serving"
+        ],
+        "instructions": [
+            "Place nori sheet on bamboo mat, shiny side down.",
+            "Spread a thin layer of sushi rice evenly, leaving 1 inch at the top.",
+            "Place fish, cucumber, and avocado along the bottom edge of rice.",
+            "Roll tightly using the bamboo mat, pressing gently.",
+            "Slice into 6–8 pieces with a sharp knife and serve with soy sauce, wasabi, and pickled ginger."
+        ]
     },
     {
         "id": 10,
         "title": "Chicken Parmesan",
         "summary": "Breaded chicken cutlets topped with marinara sauce and melted mozzarella, served over pasta.",
         "image": "https://picsum.photos/400/300?random=10",
-        "details": "Chicken Parmesan is an Italian-American comfort food featuring breaded chicken cutlets that are pan-fried to golden perfection. The crispy chicken is topped with tangy marinara sauce and slices of mozzarella cheese, which melt beautifully in the oven. Some variations include a sprinkle of Parmesan cheese for extra richness. Typically served over spaghetti or fettuccine, Chicken Parmesan combines the crunch of breading, the juicy tenderness of the chicken, and the creamy, melted cheese for a hearty and satisfying meal."
+        "details": "Chicken Parmesan is an Italian-American comfort food featuring breaded chicken cutlets that are pan-fried to golden perfection. The crispy chicken is topped with tangy marinara sauce and slices of mozzarella cheese, which melt beautifully in the oven. Some variations include a sprinkle of Parmesan cheese for extra richness. Typically served over spaghetti or fettuccine, Chicken Parmesan combines the crunch of breading, the juicy tenderness of the chicken, and the creamy, melted cheese for a hearty and satisfying meal.",
+        "ingredients": [
+            "4 boneless chicken breasts",
+            "1 cup flour",
+            "2 eggs, beaten",
+            "1 cup breadcrumbs",
+            "1 cup marinara sauce",
+            "150g mozzarella cheese, sliced",
+            "50g grated Parmesan cheese",
+            "Olive oil for frying",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat oven to 200°C.",
+            "Season chicken with salt and pepper.",
+            "Dredge chicken in flour, dip in eggs, and coat with breadcrumbs.",
+            "Fry in olive oil until golden on both sides.",
+            "Place chicken in baking dish, top with marinara sauce and mozzarella.",
+            "Bake for 15–20 minutes until cheese melts. Sprinkle Parmesan and serve over pasta."
+        ]
     },
     {
         "id": 11,
         "title": "Fish Tacos",
         "summary": "Grilled or fried fish served in soft tortillas with cabbage, salsa, and lime.",
         "image": "https://picsum.photos/400/300?random=11",
-        "details": "Fish Tacos are a fresh and vibrant dish popular in coastal cuisines. Mild white fish such as cod or tilapia is seasoned, lightly fried or grilled, and placed inside soft corn or flour tortillas. The fish is topped with shredded cabbage, tangy salsa, creamy sauces, and a squeeze of fresh lime juice. Optional garnishes include avocado, cilantro, or pickled onions. The combination of textures—crispy fish, soft tortillas, crunchy cabbage, and smooth sauces—creates a bright, flavorful, and satisfying taco experience perfect for casual meals."
+        "details": "Fish Tacos are a fresh and vibrant dish popular in coastal cuisines. Mild white fish such as cod or tilapia is seasoned, lightly fried or grilled, and placed inside soft corn or flour tortillas. The fish is topped with shredded cabbage, tangy salsa, creamy sauces, and a squeeze of fresh lime juice. Optional garnishes include avocado, cilantro, or pickled onions. The combination of textures—crispy fish, soft tortillas, crunchy cabbage, and smooth sauces—creates a bright, flavorful, and satisfying taco experience perfect for casual meals.",
+        "ingredients": [
+            "400g white fish fillets",
+            "1 tsp chili powder",
+            "1/2 tsp cumin",
+            "Salt and pepper to taste",
+            "2 tbsp vegetable oil",
+            "8 small tortillas",
+            "1 cup shredded cabbage",
+            "1/2 cup salsa",
+            "1 lime, cut into wedges",
+            "Optional: avocado, cilantro"
+        ],
+        "instructions": [
+            "Season fish with chili powder, cumin, salt, and pepper.",
+            "Pan-fry or grill fish until cooked through.",
+            "Warm tortillas in a skillet.",
+            "Assemble tacos: place fish in tortilla, top with cabbage, salsa, and optional garnishes.",
+            "Serve with lime wedges."
+        ]
     },
     {
         "id": 12,
         "title": "Vegetarian Chili",
         "summary": "A hearty, spicy stew made with beans, tomatoes, and a variety of vegetables.",
         "image": "https://picsum.photos/400/300?random=12",
-        "details": "Vegetarian Chili is a robust and comforting stew that uses a variety of beans, fresh vegetables, and spices to create a deeply flavorful meal. Ingredients often include kidney beans, black beans, bell peppers, tomatoes, onions, corn, and zucchini, simmered with garlic, chili powder, cumin, and smoked paprika. The chili is hearty, nutritious, and full of texture, offering the warmth of traditional chili without meat. It can be served with rice, cornbread, or tortilla chips and garnished with sour cream, cheese, or fresh herbs for added flavor."
+        "details": "Vegetarian Chili is a robust and comforting stew that uses a variety of beans, fresh vegetables, and spices to create a deeply flavorful meal. Ingredients often include kidney beans, black beans, bell peppers, tomatoes, onions, corn, and zucchini, simmered with garlic, chili powder, cumin, and smoked paprika. The chili is hearty, nutritious, and full of texture, offering the warmth of traditional chili without meat. It can be served with rice, cornbread, or tortilla chips and garnished with sour cream, cheese, or fresh herbs for added flavor.",
+        "ingredients": [
+            "1 can kidney beans",
+            "1 can black beans",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 red bell pepper, chopped",
+            "1 zucchini, chopped",
+            "1 cup corn kernels",
+            "400g canned tomatoes",
+            "1 tsp chili powder",
+            "1 tsp cumin",
+            "1/2 tsp smoked paprika",
+            "Salt and pepper to taste",
+            "Olive oil for cooking"
+        ],
+        "instructions": [
+            "Heat oil in a pot and sauté onion and garlic until fragrant.",
+            "Add bell pepper and zucchini, cook for 3–4 minutes.",
+            "Add beans, corn, tomatoes, and spices. Simmer for 20–25 minutes.",
+            "Season with salt and pepper. Serve hot with rice or bread."
+        ]
     },
     {
         "id": 13,
         "title": "Pulled Pork Sandwiches",
         "summary": "Tender pulled pork slow-cooked with barbecue sauce, served on a soft bun.",
         "image": "https://picsum.photos/400/300?random=13",
-        "details": "Pulled Pork Sandwiches feature slow-cooked pork shoulder that becomes tender enough to be shredded with ease. The meat is mixed with a tangy, smoky barbecue sauce that permeates each strand, creating a rich and flavorful filling. The pulled pork is served on soft hamburger buns and can be topped with coleslaw, pickles, or extra barbecue sauce. This dish is a favorite at barbecues and casual gatherings, combining tender meat, bold flavor, and satisfying textures."
+        "details": "Pulled Pork Sandwiches feature slow-cooked pork shoulder that becomes tender enough to be shredded with ease. The meat is mixed with a tangy, smoky barbecue sauce that permeates each strand, creating a rich and flavorful filling. The pulled pork is served on soft hamburger buns and can be topped with coleslaw, pickles, or extra barbecue sauce. This dish is a favorite at barbecues and casual gatherings, combining tender meat, bold flavor, and satisfying textures.",
+        "ingredients": [
+            "1kg pork shoulder",
+            "1 cup barbecue sauce",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "Salt and pepper to taste",
+            "4 soft hamburger buns",
+            "Optional: coleslaw, pickles"
+        ],
+        "instructions": [
+            "Season pork with salt and pepper.",
+            "Slow-cook pork with onion and garlic for 6–8 hours until tender.",
+            "Shred pork and mix with barbecue sauce.",
+            "Serve on buns with optional toppings."
+        ]
     },
     {
         "id": 14,
         "title": "Ratatouille",
         "summary": "A French Provençal stewed vegetable dish made from zucchini, eggplant, tomatoes, and peppers.",
         "image": "https://picsum.photos/400/300?random=14",
-        "details": "Ratatouille is a classic French vegetable stew that celebrates the flavors of summer produce. Ingredients like zucchini, eggplant, bell peppers, tomatoes, onions, and garlic are sautéed and then slowly simmered together with olive oil and aromatic herbs such as thyme, rosemary, and basil. The vegetables retain their texture and vibrant colors while absorbing the delicate flavors of the herbs. Ratatouille can be served as a main vegetarian dish, a side, or a topping for crusty bread. Its rustic flavors are comforting yet elegant, showcasing the best of Provençal cooking."
+        "details": "Ratatouille is a classic French vegetable stew that celebrates the flavors of summer produce. Ingredients like zucchini, eggplant, bell peppers, tomatoes, onions, and garlic are sautéed and then slowly simmered together with olive oil and aromatic herbs such as thyme, rosemary, and basil. The vegetables retain their texture and vibrant colors while absorbing the delicate flavors of the herbs. Ratatouille can be served as a main vegetarian dish, a side, or a topping for crusty bread. Its rustic flavors are comforting yet elegant, showcasing the best of Provençal cooking.",
+        "ingredients": [
+            "1 zucchini, sliced",
+            "1 eggplant, sliced",
+            "1 red bell pepper, sliced",
+            "1 yellow bell pepper, sliced",
+            "2 tomatoes, chopped",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "3 tbsp olive oil",
+            "1 tsp dried thyme",
+            "1 tsp dried rosemary",
+            "Fresh basil for garnish",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Heat olive oil in a large pan and sauté onion and garlic until soft.",
+            "Add bell peppers, zucchini, and eggplant. Cook for 5–7 minutes.",
+            "Add tomatoes and herbs. Simmer for 20 minutes until vegetables are tender.",
+            "Season with salt and pepper. Garnish with fresh basil and serve."
+        ]
     },
     {
         "id": 15,
         "title": "Eggplant Parmesan",
         "summary": "Breaded eggplant slices baked with marinara sauce and melted mozzarella cheese.",
         "image": "https://picsum.photos/400/300?random=15",
-        "details": "Eggplant Parmesan is an Italian-American dish where slices of eggplant are breaded and fried until golden, then layered with marinara sauce and a generous amount of mozzarella and Parmesan cheese. The dish is baked until the cheese is bubbly and slightly golden. The combination of tender eggplant, savory tomato sauce, and melted cheese creates a comforting and flavorful vegetarian option. Eggplant Parmesan is often served with pasta or a side salad for a hearty meal."
+        "details": "Eggplant Parmesan is an Italian-American dish where slices of eggplant are breaded and fried until golden, then layered with marinara sauce and a generous amount of mozzarella and Parmesan cheese. The dish is baked until the cheese is bubbly and slightly golden. The combination of tender eggplant, savory tomato sauce, and melted cheese creates a comforting and flavorful vegetarian option. Eggplant Parmesan is often served with pasta or a side salad for a hearty meal.",
+        "ingredients": [
+            "2 medium eggplants, sliced into 1/2 inch rounds",
+            "1 cup flour",
+            "2 eggs, beaten",
+            "1 cup breadcrumbs",
+            "2 cups marinara sauce",
+            "200g mozzarella cheese, shredded",
+            "50g Parmesan cheese, grated",
+            "Olive oil for frying",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat oven to 190°C (375°F).",
+            "Season eggplant slices with salt and let sit for 10 minutes to remove moisture, then pat dry.",
+            "Dredge eggplant in flour, dip in beaten eggs, and coat with breadcrumbs.",
+            "Fry eggplant slices in olive oil until golden. Drain excess oil.",
+            "In a baking dish, layer eggplant, marinara sauce, and mozzarella. Repeat layers and top with Parmesan.",
+            "Bake for 25–30 minutes until cheese is bubbly and golden. Serve warm."
+        ]
     },
     {
         "id": 16,
         "title": "Beef Tacos",
         "summary": "Seasoned ground beef served in soft or crispy tortillas with toppings like lettuce, cheese, and salsa.",
         "image": "https://picsum.photos/400/300?random=16",
-        "details": "Beef Tacos are a popular and versatile Mexican-inspired dish. Ground beef is cooked with onions, garlic, and a blend of spices such as cumin, chili powder, and paprika for bold flavor. The beef is then spooned into soft or crispy corn or flour tortillas. Toppings such as shredded lettuce, diced tomatoes, grated cheese, salsa, sour cream, and avocado add layers of flavor and texture. Beef Tacos are perfect for casual meals, family gatherings, or taco nights, offering a satisfying combination of savory, spicy, and fresh elements."
+        "details": "Beef Tacos are a popular and versatile Mexican-inspired dish. Ground beef is cooked with onions, garlic, and a blend of spices such as cumin, chili powder, and paprika for bold flavor. The beef is then spooned into soft or crispy corn or flour tortillas. Toppings such as shredded lettuce, diced tomatoes, grated cheese, salsa, sour cream, and avocado add layers of flavor and texture. Beef Tacos are perfect for casual meals, family gatherings, or taco nights, offering a satisfying combination of savory, spicy, and fresh elements.",
+        "ingredients": [
+            "500g ground beef",
+            "1 onion, finely chopped",
+            "2 cloves garlic, minced",
+            "1 tsp chili powder",
+            "1 tsp cumin",
+            "1/2 tsp paprika",
+            "Salt and pepper to taste",
+            "8 small tortillas (soft or crispy)",
+            "1 cup shredded lettuce",
+            "1 cup diced tomatoes",
+            "100g shredded cheese",
+            "Salsa, sour cream, and avocado for topping"
+        ],
+        "instructions": [
+            "Heat a skillet over medium heat and cook onion and garlic until soft.",
+            "Add ground beef and cook until browned. Drain excess fat.",
+            "Stir in chili powder, cumin, paprika, salt, and pepper. Simmer 2–3 minutes.",
+            "Warm tortillas in a skillet or oven.",
+            "Assemble tacos with beef, lettuce, tomatoes, cheese, and desired toppings. Serve immediately."
+        ]
     },
     {
         "id": 17,
         "title": "Pad Thai",
         "summary": "A popular Thai stir-fried noodle dish with shrimp, peanuts, and a tangy tamarind sauce.",
         "image": "https://picsum.photos/400/300?random=17",
-        "details": "Pad Thai is an iconic Thai street food dish featuring stir-fried rice noodles tossed with shrimp, chicken, or tofu, along with eggs, bean sprouts, and green onions. The sauce is a perfect balance of sweet, tangy, and savory, made from tamarind paste, fish sauce, palm sugar, and lime juice. Crushed peanuts are sprinkled on top for a crunchy texture and nutty flavor. Pad Thai is garnished with fresh lime wedges and often served with chili flakes for those who enjoy heat. This dish is loved for its harmony of flavors, textures, and freshness."
+        "details": "Pad Thai is an iconic Thai street food dish featuring stir-fried rice noodles tossed with shrimp, chicken, or tofu, along with eggs, bean sprouts, and green onions. The sauce is a perfect balance of sweet, tangy, and savory, made from tamarind paste, fish sauce, palm sugar, and lime juice. Crushed peanuts are sprinkled on top for a crunchy texture and nutty flavor. Pad Thai is garnished with fresh lime wedges and often served with chili flakes for those who enjoy heat. This dish is loved for its harmony of flavors, textures, and freshness.",
+        "ingredients": [
+            "200g rice noodles",
+            "200g shrimp or chicken, chopped",
+            "2 eggs, beaten",
+            "1 cup bean sprouts",
+            "2 green onions, chopped",
+            "2 cloves garlic, minced",
+            "2 tbsp tamarind paste",
+            "2 tbsp fish sauce",
+            "1 tbsp palm sugar or brown sugar",
+            "2 tbsp vegetable oil",
+            "1/4 cup crushed peanuts",
+            "Lime wedges and chili flakes for serving"
+        ],
+        "instructions": [
+            "Cook rice noodles according to package instructions and set aside.",
+            "Heat oil in a wok, sauté garlic, then add shrimp or chicken until cooked.",
+            "Push protein to side, add eggs, scramble, then mix with protein.",
+            "Add noodles, tamarind paste, fish sauce, and sugar. Toss until well coated.",
+            "Stir in bean sprouts and green onions. Serve topped with peanuts, lime wedges, and chili flakes."
+        ]
     },
     {
         "id": 18,
         "title": "Bangers and Mash",
         "summary": "A traditional British dish of sausages served with mashed potatoes and onion gravy.",
         "image": "https://picsum.photos/400/300?random=18",
-        "details": "Bangers and Mash is a classic comfort food from Britain. It consists of juicy sausages (bangers) served atop creamy mashed potatoes (mash). The dish is typically accompanied by a rich onion gravy made from caramelized onions, beef stock, and a touch of seasoning. Some variations include peas or other vegetables on the side. Bangers and Mash are hearty, filling, and satisfyingly flavorful, making them a favorite pub dish and home-cooked meal in the UK."
+        "details": "Bangers and Mash is a classic comfort food from Britain. It consists of juicy sausages (bangers) served atop creamy mashed potatoes (mash). The dish is typically accompanied by a rich onion gravy made from caramelized onions, beef stock, and a touch of seasoning. Some variations include peas or other vegetables on the side. Bangers and Mash are hearty, filling, and satisfyingly flavorful, making them a favorite pub dish and home-cooked meal in the UK.",
+        "ingredients": [
+            "6 pork sausages",
+            "1kg potatoes, peeled and chopped",
+            "50g butter",
+            "1/2 cup milk",
+            "1 onion, sliced",
+            "2 tbsp flour",
+            "1 cup beef stock",
+            "Salt and pepper to taste",
+            "Olive oil for cooking"
+        ],
+        "instructions": [
+            "Boil potatoes until tender. Mash with butter, milk, salt, and pepper. Set aside.",
+            "Cook sausages in a skillet with olive oil until browned and cooked through.",
+            "In the same pan, sauté onions until caramelized. Sprinkle flour and stir to form a roux.",
+            "Gradually add beef stock, stirring until thickened. Season to taste.",
+            "Serve sausages over mashed potatoes, topped with onion gravy."
+        ]
     },
     {
         "id": 19,
         "title": "Mushroom Risotto",
         "summary": "A creamy Italian rice dish with sautéed mushrooms, Parmesan, and a rich broth.",
         "image": "https://picsum.photos/400/300?random=19",
-        "details": "Mushroom Risotto is a creamy Italian dish made by slowly cooking Arborio rice in a flavorful broth until tender and silky. Sautéed mushrooms add earthiness, while onions, garlic, and white wine enhance the aroma and depth of flavor. Parmesan cheese is stirred in at the end to create a rich, creamy texture. Risotto requires careful attention and continuous stirring, which releases the starches in the rice, giving the dish its signature creamy consistency. It is often finished with a touch of butter and fresh herbs for extra richness and elegance."
+        "details": "Mushroom Risotto is a creamy Italian dish made by slowly cooking Arborio rice in a flavorful broth until tender and silky. Sautéed mushrooms add earthiness, while onions, garlic, and white wine enhance the aroma and depth of flavor. Parmesan cheese is stirred in at the end to create a rich, creamy texture. Risotto requires careful attention and continuous stirring, which releases the starches in the rice, giving the dish its signature creamy consistency. It is often finished with a touch of butter and fresh herbs for extra richness and elegance.",
+        "ingredients": [
+            "1 1/2 cups Arborio rice",
+            "200g mushrooms, sliced",
+            "1 onion, finely chopped",
+            "2 cloves garlic, minced",
+            "4 cups vegetable or chicken broth, warm",
+            "1/2 cup white wine",
+            "50g Parmesan cheese, grated",
+            "2 tbsp butter",
+            "2 tbsp olive oil",
+            "Salt and pepper to taste",
+            "Fresh parsley for garnish"
+        ],
+        "instructions": [
+            "Heat olive oil in a pan, sauté onion and garlic until soft.",
+            "Add mushrooms and cook until golden.",
+            "Stir in rice until lightly toasted. Add white wine and cook until absorbed.",
+            "Gradually add warm broth, 1 cup at a time, stirring constantly until liquid is absorbed before adding more.",
+            "Once rice is creamy and tender, stir in butter and Parmesan.",
+            "Season with salt and pepper, garnish with parsley, and serve hot."
+        ]
     },
     {
         "id": 20,
         "title": "Chicken Alfredo",
         "summary": "A creamy pasta dish with grilled chicken, fettuccine noodles, and Alfredo sauce.",
         "image": "https://picsum.photos/400/300?random=20",
-        "details": "Chicken Alfredo is a rich and creamy Italian-American pasta dish featuring tender grilled chicken served over fettuccine noodles. The signature Alfredo sauce is made from butter, heavy cream, and Parmesan cheese, creating a velvety texture that coats the pasta evenly. Garlic and black pepper add subtle flavor, while freshly chopped parsley brightens the dish. Chicken Alfredo is indulgent yet simple, often served with garlic bread or a fresh green salad, making it a comforting meal for any occasion."
+        "details": "Chicken Alfredo is a rich and creamy Italian-American pasta dish featuring tender grilled chicken served over fettuccine noodles. The signature Alfredo sauce is made from butter, heavy cream, and Parmesan cheese, creating a velvety texture that coats the pasta evenly. Garlic and black pepper add subtle flavor, while freshly chopped parsley brightens the dish. Chicken Alfredo is indulgent yet simple, often served with garlic bread or a fresh green salad, making it a comforting meal for any occasion.",
+        "ingredients": [
+            "400g fettuccine pasta",
+            "2 chicken breasts, grilled and sliced",
+            "3 tbsp butter",
+            "1 cup heavy cream",
+            "1 cup Parmesan cheese, grated",
+            "2 cloves garlic, minced",
+            "Salt and pepper to taste",
+            "Fresh parsley for garnish"
+        ],
+        "instructions": [
+            "Cook fettuccine according to package instructions. Drain and set aside.",
+            "In a pan, melt butter and sauté garlic until fragrant.",
+            "Add heavy cream and simmer for 2–3 minutes.",
+            "Stir in Parmesan cheese until sauce thickens.",
+            "Add cooked pasta and toss to coat. Top with grilled chicken slices.",
+            "Season with salt and pepper. Garnish with parsley and serve."
+        ]
     }
 ]
