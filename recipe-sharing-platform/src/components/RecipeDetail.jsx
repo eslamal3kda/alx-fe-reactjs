@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import data from '../data.json'
 
 export default function RecipeDetail() {
   const {id} = useParams()
   const recipe = data.find((r)=>r.id === parseInt(id) )
+  useEffect(() => {
+    console.log(recipe);
+  },[recipe])
   return (
     <div className='flex flex-col gap-4 p-4 border border-teal-700 mx-auto'>
       <img src={recipe.image} alt="" className='w-64 ' />
