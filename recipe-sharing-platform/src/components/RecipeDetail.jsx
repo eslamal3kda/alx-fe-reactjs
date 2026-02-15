@@ -13,14 +13,14 @@ export default function RecipeDetail() {
             <img src={recipe.image} alt="" className="w-64 " />
             <h2 className="text-blue-500 ">{recipe.title}</h2>
             <p className="">{recipe.details}</p>
-            <h3 className="text-2xl ">Ingredients</h3>
-            <ul className="border border-blue-200 rounded p-4 ">
+            <h3 className="text-2xl font-bold">Ingredients</h3>
+            <ul className="border border-blue-200 rounded p-4 shadow">
                 {recipe.ingredients.map((i) => (
                     <li className="my-1 bg-slate-100">{i}</li>
                 ))}
             </ul>
-            <h3 className="text-2xl">Instructions</h3>
-            <ol className="list-decimal">
+            <h3 className="text-2xl font-bold">Instructions</h3>
+            <ol className="list-decimal shadow">
                 {recipe.instructions.map((i) => (
                     <li className="p-1 bg-slate-100 my-1">{i}</li>
                 ))}
