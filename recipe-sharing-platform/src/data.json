@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "Spaghetti Carbonara",
+        "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+        "image": "https://picsum.photos/400/300?random=1",
+        "details": "Spaghetti Carbonara is a traditional Italian pasta dish made with simple yet flavorful ingredients. The dish begins with perfectly cooked spaghetti tossed with crispy pancetta or bacon. A rich sauce is created by combining fresh eggs and grated Parmesan or Pecorino Romano cheese, which gently cook when mixed with the hot pasta, creating a creamy texture without the use of cream. Freshly cracked black pepper adds a subtle heat and depth of flavor. The key to an authentic carbonara lies in tempering the eggs properly to avoid scrambling them. It is typically served immediately, garnished with extra cheese and pepper for a comforting and indulgent meal."
+    },
+    {
+        "id": 2,
+        "title": "Chicken Tikka Masala",
+        "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+        "image": "https://picsum.photos/400/300?random=2",
+        "details": "Chicken Tikka Masala features marinated chunks of chicken that are grilled or roasted until slightly charred and smoky. The chicken is then simmered in a creamy tomato-based sauce made with onions, garlic, ginger, and a blend of aromatic spices such as garam masala, cumin, coriander, and paprika. The sauce is enriched with cream or yogurt for a smooth and velvety texture. This dish balances mild heat with subtle sweetness and tanginess from the tomatoes. It is best served with warm naan bread or steamed basmati rice, allowing the flavorful sauce to be fully enjoyed."
+    },
+    {
+        "id": 3,
+        "title": "Beef Wellington",
+        "summary": "A rich and tender fillet of beef wrapped in puff pastry with mushrooms and prosciutto.",
+        "image": "https://picsum.photos/400/300?random=3",
+        "details": "Beef Wellington is an elegant and luxurious dish featuring a tender beef fillet seared to lock in juices, then coated with a layer of mushroom duxelles and often wrapped in thin slices of prosciutto. The beef is encased in golden, flaky puff pastry and baked until perfectly crisp on the outside while maintaining a juicy and tender center. The mushroom mixture adds an earthy depth of flavor, complementing the richness of the beef. Typically served with roasted vegetables and a red wine reduction sauce, Beef Wellington is a popular centerpiece for festive dinners and special occasions."
+    },
+    {
+        "id": 4,
+        "title": "Vegetable Stir Fry",
+        "summary": "A colorful and healthy dish with mixed vegetables stir-fried in soy sauce and garlic.",
+        "image": "https://picsum.photos/400/300?random=4",
+        "details": "Vegetable Stir Fry is a quick and nutritious dish made by cooking fresh vegetables such as bell peppers, broccoli, carrots, snap peas, and mushrooms over high heat. The vegetables are sautéed in a wok with garlic, ginger, and a splash of soy sauce, allowing them to retain their crunch and vibrant color. A light sauce made with soy sauce, sesame oil, and a touch of cornstarch coats the vegetables, enhancing their natural flavors. This dish can be served as a main course over rice or noodles, or as a side dish accompanying grilled meats or tofu."
+    },
+    {
+        "id": 5,
+        "title": "Margherita Pizza",
+        "summary": "A simple pizza topped with fresh tomatoes, mozzarella, basil, and a drizzle of olive oil.",
+        "image": "https://picsum.photos/400/300?random=5",
+        "details": "Margherita Pizza is a classic Italian pizza known for its simplicity and fresh ingredients. A thin pizza dough is spread with a light layer of crushed tomatoes seasoned with salt and olive oil. Fresh mozzarella slices are evenly distributed across the surface before baking in a hot oven until the crust is golden and crisp. After baking, fresh basil leaves are added for a burst of aroma and flavor. The combination of tangy tomatoes, creamy mozzarella, and fragrant basil creates a balanced and satisfying taste that celebrates traditional Italian cuisine."
+    },
+    {
+        "id": 6,
+        "title": "Lamb Curry",
+        "summary": "Slow-cooked lamb in a spicy and aromatic curry sauce with tomatoes and yogurt.",
+        "image": "https://picsum.photos/400/300?random=6",
+        "details": "Lamb Curry is a hearty dish where tender pieces of lamb are slowly cooked in a richly spiced sauce made from tomatoes, onions, garlic, ginger, and a variety of aromatic spices including cumin, coriander, turmeric, and chili powder. Yogurt is often added to create a creamy texture and to balance the spiciness of the sauce. The slow-cooking process ensures the lamb becomes incredibly tender and absorbs the complex flavors of the curry. Typically served with steamed rice or warm naan, lamb curry is comforting, flavorful, and deeply satisfying."
+    },
+    {
+        "id": 7,
+        "title": "Pancakes",
+        "summary": "Fluffy, buttery pancakes served with maple syrup and your favorite toppings.",
+        "image": "https://picsum.photos/400/300?random=7",
+        "details": "Pancakes are a breakfast favorite made from a simple batter of flour, eggs, milk, sugar, and baking powder. The batter is poured onto a hot griddle or skillet and cooked until golden brown on both sides. The result is light, fluffy, and tender pancakes that melt in your mouth. They can be served stacked high with butter, maple syrup, fresh fruits, whipped cream, or chocolate chips for added indulgence. Pancakes are versatile and can be customized with different flavors such as blueberry, banana, or even savory options with cheese and herbs."
+    },
+    {
+        "id": 8,
+        "title": "Caesar Salad",
+        "summary": "Crisp romaine lettuce, crunchy croutons, and creamy Caesar dressing with grated Parmesan.",
+        "image": "https://picsum.photos/400/300?random=8",
+        "details": "Caesar Salad is a refreshing green salad featuring crisp romaine lettuce, crunchy homemade croutons, and a creamy dressing made from egg yolk, garlic, Dijon mustard, lemon juice, anchovy paste, and olive oil. Grated Parmesan cheese adds a salty and nutty flavor, perfectly complementing the fresh lettuce. Optional toppings like grilled chicken or bacon can be added for protein, making it a versatile starter or main dish. The combination of textures and flavors—crisp, creamy, tangy, and savory—makes Caesar Salad a timeless classic."
+    },
+    {
+        "id": 9,
+        "title": "Sushi Rolls",
+        "summary": "Fresh fish, rice, and vegetables rolled in nori seaweed, often served with soy sauce and wasabi.",
+        "image": "https://picsum.photos/400/300?random=9",
+        "details": "Sushi Rolls, or maki, are a staple of Japanese cuisine. Cooked and seasoned sushi rice is spread over nori (seaweed sheets) and filled with ingredients such as fresh fish, avocado, cucumber, and pickled vegetables. The nori is rolled tightly using a bamboo mat to form bite-sized rolls, which are then sliced and served with soy sauce, pickled ginger, and wasabi for added flavor. Sushi Rolls combine delicate textures and fresh flavors, offering a balanced experience of umami, sweetness, and subtle tanginess."
+    },
+    {
+        "id": 10,
+        "title": "Chicken Parmesan",
+        "summary": "Breaded chicken cutlets topped with marinara sauce and melted mozzarella, served over pasta.",
+        "image": "https://picsum.photos/400/300?random=10",
+        "details": "Chicken Parmesan is an Italian-American comfort food featuring breaded chicken cutlets that are pan-fried to golden perfection. The crispy chicken is topped with tangy marinara sauce and slices of mozzarella cheese, which melt beautifully in the oven. Some variations include a sprinkle of Parmesan cheese for extra richness. Typically served over spaghetti or fettuccine, Chicken Parmesan combines the crunch of breading, the juicy tenderness of the chicken, and the creamy, melted cheese for a hearty and satisfying meal."
+    },
+    {
+        "id": 11,
+        "title": "Fish Tacos",
+        "summary": "Grilled or fried fish served in soft tortillas with cabbage, salsa, and lime.",
+        "image": "https://picsum.photos/400/300?random=11",
+        "details": "Fish Tacos are a fresh and vibrant dish popular in coastal cuisines. Mild white fish such as cod or tilapia is seasoned, lightly fried or grilled, and placed inside soft corn or flour tortillas. The fish is topped with shredded cabbage, tangy salsa, creamy sauces, and a squeeze of fresh lime juice. Optional garnishes include avocado, cilantro, or pickled onions. The combination of textures—crispy fish, soft tortillas, crunchy cabbage, and smooth sauces—creates a bright, flavorful, and satisfying taco experience perfect for casual meals."
+    },
+    {
+        "id": 12,
+        "title": "Vegetarian Chili",
+        "summary": "A hearty, spicy stew made with beans, tomatoes, and a variety of vegetables.",
+        "image": "https://picsum.photos/400/300?random=12",
+        "details": "Vegetarian Chili is a robust and comforting stew that uses a variety of beans, fresh vegetables, and spices to create a deeply flavorful meal. Ingredients often include kidney beans, black beans, bell peppers, tomatoes, onions, corn, and zucchini, simmered with garlic, chili powder, cumin, and smoked paprika. The chili is hearty, nutritious, and full of texture, offering the warmth of traditional chili without meat. It can be served with rice, cornbread, or tortilla chips and garnished with sour cream, cheese, or fresh herbs for added flavor."
+    },
+    {
+        "id": 13,
+        "title": "Pulled Pork Sandwiches",
+        "summary": "Tender pulled pork slow-cooked with barbecue sauce, served on a soft bun.",
+        "image": "https://picsum.photos/400/300?random=13",
+        "details": "Pulled Pork Sandwiches feature slow-cooked pork shoulder that becomes tender enough to be shredded with ease. The meat is mixed with a tangy, smoky barbecue sauce that permeates each strand, creating a rich and flavorful filling. The pulled pork is served on soft hamburger buns and can be topped with coleslaw, pickles, or extra barbecue sauce. This dish is a favorite at barbecues and casual gatherings, combining tender meat, bold flavor, and satisfying textures."
+    },
+    {
+        "id": 14,
+        "title": "Ratatouille",
+        "summary": "A French Provençal stewed vegetable dish made from zucchini, eggplant, tomatoes, and peppers.",
+        "image": "https://picsum.photos/400/300?random=14",
+        "details": "Ratatouille is a classic French vegetable stew that celebrates the flavors of summer produce. Ingredients like zucchini, eggplant, bell peppers, tomatoes, onions, and garlic are sautéed and then slowly simmered together with olive oil and aromatic herbs such as thyme, rosemary, and basil. The vegetables retain their texture and vibrant colors while absorbing the delicate flavors of the herbs. Ratatouille can be served as a main vegetarian dish, a side, or a topping for crusty bread. Its rustic flavors are comforting yet elegant, showcasing the best of Provençal cooking."
+    },
+    {
+        "id": 15,
+        "title": "Eggplant Parmesan",
+        "summary": "Breaded eggplant slices baked with marinara sauce and melted mozzarella cheese.",
+        "image": "https://picsum.photos/400/300?random=15",
+        "details": "Eggplant Parmesan is an Italian-American dish where slices of eggplant are breaded and fried until golden, then layered with marinara sauce and a generous amount of mozzarella and Parmesan cheese. The dish is baked until the cheese is bubbly and slightly golden. The combination of tender eggplant, savory tomato sauce, and melted cheese creates a comforting and flavorful vegetarian option. Eggplant Parmesan is often served with pasta or a side salad for a hearty meal."
+    },
+    {
+        "id": 16,
+        "title": "Beef Tacos",
+        "summary": "Seasoned ground beef served in soft or crispy tortillas with toppings like lettuce, cheese, and salsa.",
+        "image": "https://picsum.photos/400/300?random=16",
+        "details": "Beef Tacos are a popular and versatile Mexican-inspired dish. Ground beef is cooked with onions, garlic, and a blend of spices such as cumin, chili powder, and paprika for bold flavor. The beef is then spooned into soft or crispy corn or flour tortillas. Toppings such as shredded lettuce, diced tomatoes, grated cheese, salsa, sour cream, and avocado add layers of flavor and texture. Beef Tacos are perfect for casual meals, family gatherings, or taco nights, offering a satisfying combination of savory, spicy, and fresh elements."
+    },
+    {
+        "id": 17,
+        "title": "Pad Thai",
+        "summary": "A popular Thai stir-fried noodle dish with shrimp, peanuts, and a tangy tamarind sauce.",
+        "image": "https://picsum.photos/400/300?random=17",
+        "details": "Pad Thai is an iconic Thai street food dish featuring stir-fried rice noodles tossed with shrimp, chicken, or tofu, along with eggs, bean sprouts, and green onions. The sauce is a perfect balance of sweet, tangy, and savory, made from tamarind paste, fish sauce, palm sugar, and lime juice. Crushed peanuts are sprinkled on top for a crunchy texture and nutty flavor. Pad Thai is garnished with fresh lime wedges and often served with chili flakes for those who enjoy heat. This dish is loved for its harmony of flavors, textures, and freshness."
+    },
+    {
+        "id": 18,
+        "title": "Bangers and Mash",
+        "summary": "A traditional British dish of sausages served with mashed potatoes and onion gravy.",
+        "image": "https://picsum.photos/400/300?random=18",
+        "details": "Bangers and Mash is a classic comfort food from Britain. It consists of juicy sausages (bangers) served atop creamy mashed potatoes (mash). The dish is typically accompanied by a rich onion gravy made from caramelized onions, beef stock, and a touch of seasoning. Some variations include peas or other vegetables on the side. Bangers and Mash are hearty, filling, and satisfyingly flavorful, making them a favorite pub dish and home-cooked meal in the UK."
+    },
+    {
+        "id": 19,
+        "title": "Mushroom Risotto",
+        "summary": "A creamy Italian rice dish with sautéed mushrooms, Parmesan, and a rich broth.",
+        "image": "https://picsum.photos/400/300?random=19",
+        "details": "Mushroom Risotto is a creamy Italian dish made by slowly cooking Arborio rice in a flavorful broth until tender and silky. Sautéed mushrooms add earthiness, while onions, garlic, and white wine enhance the aroma and depth of flavor. Parmesan cheese is stirred in at the end to create a rich, creamy texture. Risotto requires careful attention and continuous stirring, which releases the starches in the rice, giving the dish its signature creamy consistency. It is often finished with a touch of butter and fresh herbs for extra richness and elegance."
+    },
+    {
+        "id": 20,
+        "title": "Chicken Alfredo",
+        "summary": "A creamy pasta dish with grilled chicken, fettuccine noodles, and Alfredo sauce.",
+        "image": "https://picsum.photos/400/300?random=20",
+        "details": "Chicken Alfredo is a rich and creamy Italian-American pasta dish featuring tender grilled chicken served over fettuccine noodles. The signature Alfredo sauce is made from butter, heavy cream, and Parmesan cheese, creating a velvety texture that coats the pasta evenly. Garlic and black pepper add subtle flavor, while freshly chopped parsley brightens the dish. Chicken Alfredo is indulgent yet simple, often served with garlic bread or a fresh green salad, making it a comforting meal for any occasion."
+    }
+]
