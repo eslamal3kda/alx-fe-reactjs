@@ -31,18 +31,30 @@ export default function RegistrationForm() {
 
         let valid = true;
         const newErrors = { username: "", email: "", password: "" };
-        if (!username || username.length < 3) {
+        if (!username) {
+            newErrors.username = "Username is required";
+            valid = false;
+        } else if (username.length < 3) {
             newErrors.username = "Username must be at least 3 characters";
             valid = false;
         }
-        if (!password || password.length < 6) {
+
+        if (!password) {
+            newErrors.password = "Password is required";
+            valid = false;
+        } else if (password.length < 6) {
             newErrors.password = "Password must be at least 6 characters";
             valid = false;
         }
-        const emailRegex = /\S+@\S+\.\S+/;
-        if (!email || !emailRegex.test(email)) {
-            newErrors.email = "Please enter a valid email";
+        if (!email) {
+            newErrors.email = "Email is required";
             valid = false;
+        } else {
+            const emailRegex = /\S+@\S+\.\S+/;
+            if (!emailRegex.test(email)) {
+                newErrors.email = "Please enter a valid email";
+                valid = false;
+            }
         }
 
         setErrors(newErrors);
