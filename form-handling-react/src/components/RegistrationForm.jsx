@@ -5,6 +5,11 @@ export default function RegistrationForm() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [userData, setUserData] = useState([]);
+    const [errors, setErrors] = useState({
+        username: "",
+        email: "",
+        password: "",
+    });
 
     const handleForm = (e) => {
         e.preventDefault();
@@ -24,25 +29,31 @@ export default function RegistrationForm() {
         console.log(`User: ${username}`, `Email: ${email}`, `Pass: ${password}`);
         setUserData([...userData, { userEmail: email, userName: username, userPass: password }]);
 
+        let valid = true;
+        const newErrors = { username: "", email: "", password: "" };
         if (!username || username.length < 3) {
-            alert("Username must be at least 3 characters");
-            return;
+            newErrors.username = "Username must be at least 3 characters";
+            valid = false;
         }
-
+        if (!password || password.length < 6) {
+            newErrors.password = "Password must be at least 6 characters";
+            valid = false;
+        }
         const emailRegex = /\S+@\S+\.\S+/;
         if (!email || !emailRegex.test(email)) {
-            alert("Please enter a valid emailr");
-            return;
+            newErrors.email = "Please enter a valid email";
+            valid = false;
         }
 
-        if (!password || password.length < 6) {
-            alert("Password must be at least 6 characters");
-            return;
-        }
+        setErrors(newErrors);
+
+        if (!valid) return;
 
         setUserName("");
         setEmail("");
         setPassword("");
+
+        setErrors({ username: "", email: "", password: "" });
     };
 
     return (
@@ -53,12 +64,14 @@ export default function RegistrationForm() {
                         User Name
                     </label>
                     <input placeholder="Enter Your Username" type="text" name="username" id="username" className=" px-2 py-3 rounded-2xl bg-white" onChange={handleUserNameInput} value={username} />
+                    {errors.username && <span className="text-red-500 text-sm">{errors.username}</span>}
                 </div>
                 <div className="flex flex-col relative border-4 w-60 rounded-2xl">
                     <label htmlFor="email" className="absolute -top-4 left-2 bg-white font-bold px-1 rounded-2xl">
                         Email
                     </label>
                     <input placeholder="Enter Your Email" type="email" name="email" id="email" className=" px-2 py-3 rounded-2xl bg-white" onChange={handleEmailInput} value={email} />
+                    {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
                 </div>
                 <div className="flex flex-col relative border-4 w-60 rounded-2xl">
                     <label htmlFor="password" className="absolute -top-4 left-2 bg-white font-bold px-1 rounded-2xl">
@@ -73,6 +86,7 @@ export default function RegistrationForm() {
                         onChange={handlePasswordInput}
                         value={password}
                     />
+                    {errors.password && <span className="text-red-500 text-sm">{errors.password}</span>}
                 </div>
                 <button type="submit" className="py-2 px-4 bg-black/80 text-white cursor-pointer w-fit rounded-2xl">
                     Send Data
