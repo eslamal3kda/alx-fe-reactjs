@@ -23,6 +23,23 @@ export default function RegistrationForm() {
     const handleUserDate = () => {
         console.log(`User: ${username}`, `Email: ${email}`, `Pass: ${password}`);
         setUserData([...userData, { userEmail: email, userName: username, userPass: password }]);
+
+        if (!username || username.length < 3) {
+            alert("Username must be at least 3 characters");
+            return;
+        }
+
+        const emailRegex = /\S+@\S+\.\S+/;
+        if (!email || !emailRegex.test(email)) {
+            alert("Please enter a valid email");
+            return;
+        }
+
+        if (!password || password.length < 6) {
+            alert("Password must be at least 6 characters");
+            return;
+        }
+
         setUserName("");
         setEmail("");
         setPassword("");
