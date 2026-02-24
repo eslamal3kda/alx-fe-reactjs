@@ -31,7 +31,7 @@ export default function RegistrationForm() {
 
         const emailRegex = /\S+@\S+\.\S+/;
         if (!email || !emailRegex.test(email)) {
-            alert("Please enter a valid email");
+            alert("Please enter a valid emailr");
             return;
         }
 
