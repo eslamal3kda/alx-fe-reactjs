@@ -3,12 +3,14 @@ import React from "react";
 import { useQuery } from "react-query";
 
 export default function PostsComponent() {
-    const { data, isLoading, isError } = useQuery({
-        queryKey: ["posts"],
-        queryFn: async () => {
+  const fetchPosts = async () => {
             const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
             return res.data;
-        },
+
+  }
+    const { data, isLoading, isError } = useQuery({
+        queryKey: ["posts"],
+        queryFn: ()=> fetchPosts()
     });
     console.log(data);
     // console.log("loading", isLoading);
