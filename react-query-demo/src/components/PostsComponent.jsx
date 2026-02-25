@@ -7,7 +7,8 @@ export default function PostsComponent() {
         const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
         return res.data;
     };
-    const { data, isLoading, isError } = useQuery({
+
+    const { data, isLoading, isError, refetch } = useQuery({
         queryKey: ["posts"],
         queryFn: () => fetchPosts(),
         staleTime: 1000 * 60,
@@ -26,13 +27,16 @@ export default function PostsComponent() {
     }
 
     return (
-        <div className="p-20 flex flex-wrap gap-8 ">
-            {data.map((e) => (
-                <div key={e.id} className="w-100 border flex flex-col p-8 rounded-2xl">
-                    <h2 className="text-2xl font-blod uppercase">{e.title}</h2>
-                    <p className="text-gray-400 capitalize">{e.body}</p>
-                </div>
-            ))}
+        <div className="flex flex-col pt-5 items-center">
+            <button onClick={() => refetch()} className="p-2 border w-fit cursor-pointer rounded-2xl bg-sky-700 text-white">refetch data</button>
+            <div className="p-20 flex flex-wrap gap-8 ">
+                {data.map((e) => (
+                    <div key={e.id} className="w-100 border flex flex-col p-8 rounded-2xl">
+                        <h2 className="text-2xl font-blod uppercase">{e.title}</h2>
+                        <p className="text-gray-400 capitalize">{e.body}</p>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
