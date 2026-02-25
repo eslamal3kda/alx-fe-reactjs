@@ -3,27 +3,26 @@ import React from "react";
 import { useQuery } from "react-query";
 
 export default function PostsComponent() {
-  const fetchPosts = async () => {
-            const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-            return res.data;
-
-  }
+    const fetchPosts = async () => {
+        const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
+        return res.data;
+    };
     const { data, isLoading, isError } = useQuery({
         queryKey: ["posts"],
-        queryFn: ()=> fetchPosts()
+        queryFn: () => fetchPosts(),
+        staleTime: 1000 * 60,
+        cacheTime: 1000 * 60 * 10,
+        refetchOnWindowFocus: false,
+        keepPreviousData: true,
     });
     console.log(data);
     // console.log("loading", isLoading);
     // console.log("error", isError);
-  if (isError) {
-    return (
-        <p className="text-red-500 text-5xl ">Error</p>
-      )
+    if (isError) {
+        return <p className="text-red-500 text-5xl ">Error</p>;
     }
-  if (isLoading) {
-    return (
-        <p className="text-3xl ">Loading...</p>
-      )
+    if (isLoading) {
+        return <p className="text-3xl ">Loading...</p>;
     }
 
     return (
