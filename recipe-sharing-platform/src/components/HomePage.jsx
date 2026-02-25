@@ -3,7 +3,7 @@ import data from "../data.json";
 import RecipeCard from "./RecipeCard";
 import AddRecipeForm from "./AddRecipeForm";
 export default function HomePage() {
-    const [recipes, setRecipes] = useState(data);
+    const [recipes] = useState(data);
 
     useEffect(() => {
         console.log(recipes);
