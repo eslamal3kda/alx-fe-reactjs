@@ -1,28 +1,16 @@
-import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "./components/layout";
+import { Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Profile from "./components/Profile";
-import ProfileSetting from "./components/ProfileSetting";
-import ProfileDetails from "./components/ProfileDetails";
+import Post from "./components/Post";
 
-export default function App() {
-    const routing = createBrowserRouter([
-        {
-            path: "/",
-            element: <Layout />,
-            children: [
-                { index: true, element: <HomePage /> },
-                {
-                    path: "/profile",
-                    element: <Profile />,
-                    children: [
-                        { path: "/profile/setting", element: <ProfileSetting /> },
-                        { path: "/profile/details", element: <ProfileDetails /> },
-                    ],
-                },
-            ],
-        },
-    ]);
-    return <RouterProvider router={routing}></RouterProvider>;
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/profile/*" element={<Profile />} />
+      <Route path="/post/:id" element={<Post />} />
+    </Routes>
+  );
 }
+
+export default App;
